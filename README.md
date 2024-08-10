@@ -12,21 +12,31 @@ The dataset, containing various features related to car specifications and their
 ## 2. Model Implementation:
 
 Five different regression algorithms were implemented to predict car prices:
+
 1.Linear Regression
+
 2.Descision Tree Regressor
+
 3.Random Forest Regressor
+
 4.Gradient Forest Regressor
+
 5.Support Vector Regressor
 
-Linear Regression: A simple yet effective model to understand the linear relationship between the features and car prices.
-Decision Tree Regressor: A non-linear model that creates a tree structure to make predictions based on decision rules inferred from the data.
-Random Forest Regressor: An ensemble learning method that builds multiple decision trees and merges them to improve prediction accuracy.
-Gradient Boosting Regressor: Another ensemble technique that builds models sequentially, with each new model correcting errors made by the previous ones.
-Support Vector Regressor (SVR): A model that attempts to fit the data within a certain margin, optimizing for the best boundary.
+### Linear Regression: 
+ A simple yet effective model to understand the linear relationship between the features and car prices.
+### Decision Tree Regressor: 
+ A non-linear model that creates a tree structure to make predictions based on decision rules inferred from the data.
+### Random Forest Regressor: 
+ An ensemble learning method that builds multiple decision trees and merges them to improve prediction accuracy.
+### Gradient Boosting Regressor: 
+ Another ensemble technique that builds models sequentially, with each new model correcting errors made by the previous ones.
+### Support Vector Regressor (SVR): 
+ A model that attempts to fit the data within a certain margin, optimizing for the best boundary.
 
 ## 3. Model Evaluation:
 
-Each model's performance was evaluated using R-squared, Mean Squared Error (MSE), and Mean Absolute Error (MAE) metrics. These metrics provided insights into the accuracy and robustness of each model. The comparison allowed for the identification of the best-performing model.
+Each model's performance was evaluated using R-squared, Mean Squared Error (MSE), and Mean Absolute Error (MAE) metrics. These metrics provided insights into the accuracy and robustness of each model. The comparison allowed for the identification of the best-performing model as Random Forest Regressor
 
 ## 4. Feature Importance Analysis:
 
